@@ -17,7 +17,8 @@ export default function reducer(state = 0, action) {
             return 0
         }
         case rotateCounterBox: {
-            return true
+            state = typeof state === 'number' ? false : state ? true : false 
+            return !state
         }
         default: return state
     }
@@ -26,20 +27,17 @@ export default function reducer(state = 0, action) {
 // Action Creators
 export const increaseNumberAction = () => {
     return {
-        type: increaseNumber,
-
+        type: increaseNumber
     }
 }
 export const decreaseNumberAction = () => {
     return {
-        type: decreaseNumber,
-
+        type: decreaseNumber
     }
 }
 export const setZeroNumberAction = () => {
     return {
-        type: setZeroNumber,
-
+        type: setZeroNumber
     }
 }
 export const rotateCounterBoxAction = () => {
