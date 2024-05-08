@@ -6,7 +6,7 @@
 ## Description Project
 - A beautiful counter with the ability to rotate the main container box to 45 degree angles
 
-- This counter may be very simple and unusable، but the main purpose of this counter is to create a counter behind the backdrop of react، which wants to show the use of callback here، or somehow show one of its uses in this mini-project.
+- Use the ducks method in redux
 
 >### Languages
 >> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=F77F1A&random=false&width=55&height=25&lines=Html5)
