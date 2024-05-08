@@ -5,6 +5,7 @@ import {
 } from './src/Redux/counter.js'
 
 const topNumberElem = document.querySelector('.top__number')
+const topTypeFuncElem = document.querySelector('.top__type-func')
 const plusElem = document.getElementById('plus')
 const zeroElem = document.getElementById('zero')
 const minElem = document.getElementById('min')
@@ -16,21 +17,23 @@ const store = createStore(reducer)
 const plusElemHandler = () => {
     store.dispatch(increaseNumberAction())
     topNumberElem.innerHTML = store.getState()
+    topTypeFuncElem.innerHTML = 'MAX'
 }
 
 const zeroElemHandler = () => {
     store.dispatch(setZeroNumberAction())
     topNumberElem.innerHTML = store.getState()
+    topTypeFuncElem.innerHTML = 'RESET'
 }
 
 const minElemHandler = () => {
     store.dispatch(decreaseNumberAction())
     topNumberElem.innerHTML = store.getState()
+    topTypeFuncElem.innerHTML = 'MIN'
 }
 
 const rotateBoxElemHandler = () => {
     store.dispatch(rotateCounterBoxAction())
-
     const containsMain = document.querySelectorAll('.rotate')
     let containsMainArr = Array.from(containsMain)
 
