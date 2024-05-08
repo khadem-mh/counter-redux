@@ -17,7 +17,7 @@ export default function reducer(state = 0, action) {
             return 0
         }
         case rotateCounterBox: {
-            state = typeof state === 'number' ? false : state ? true : false 
+            state = typeof state === 'number' ? false : state ? true : false
             return !state
         }
         default: return state

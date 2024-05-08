@@ -30,12 +30,22 @@ const minElemHandler = () => {
 
 const rotateBoxElemHandler = () => {
     store.dispatch(rotateCounterBoxAction())
+
+    const containsMain = document.querySelectorAll('.rotate')
+    let containsMainArr = Array.from(containsMain)
+
     if (store.getState()) {
         containerElem.classList.remove('rotate-main-active')
+        containsMainArr.forEach(item => item.classList.remove('rotate-active'))
+
         containerElem.classList.add('rotate-not-active')
+        containsMainArr.forEach(item => item.classList.add('rotate-not-active'))
     } else {
         containerElem.classList.remove('rotate-not-active')
+        containsMainArr.forEach(item => item.classList.remove('rotate-not-active'))
+
         containerElem.classList.add('rotate-main-active')
+        containsMainArr.forEach(item => item.classList.add('rotate-active'))
     }
 }
 
