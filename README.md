@@ -41,13 +41,13 @@ OR
 Then, after you finish installing the packages, run this command to start your React program.
 
 ```
-> npm start
+> npm run dev
 ```
 
-### `npm start`
+### `npm run dev`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:5173/](http://localhost:5173/) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
