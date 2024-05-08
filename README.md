@@ -9,16 +9,17 @@
 - This counter may be very simple and unusable، but the main purpose of this counter is to create a counter behind the backdrop of react، which wants to show the use of callback here، or somehow show one of its uses in this mini-project.
 
 >### Languages
->> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=5BCAF7&random=false&width=100&height=25&lines=React+Js)
->>
 >> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=F77F1A&random=false&width=55&height=25&lines=Html5)
 >> 
 >> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=5BCAF7&random=false&width=55&height=25&lines=Css3)
 >> 
 >> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=FAFF09&random=false&width=100&height=25&lines=JavaScript)
 
+>### Library
+>> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=CB58F7FF&random=false&width=150&height=25&lines=Redux)
+>> 
 >### Packages
->> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=CB58F7FF&random=false&width=150&height=25&lines=React+Icons)
+>> ![](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1500&pause=5000&color=CB58F7FF&random=false&width=150&height=25&lines=bootstrap-icons)
 
 ## View of the project
 
